@@ -6,5 +6,5 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [QR Coed Componen](https://www.frontendmentor.io/solutions/qr-code-component-challenge-hub-euq_FvXIW)
-- Live Site URL: [QR Coed Component](https://frontend-mentor-stats.vercel.app/)
+- Solution URL: [Stats preview card component](https://www.frontendmentor.io/solutions/stats-preview-card-component-challenge-ZoBxcohFR)
+- Live Site URL: [Stats preview card component](https://frontend-mentor-stats.vercel.app/)
