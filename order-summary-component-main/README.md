@@ -7,4 +7,4 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [Order summary card solution](https://www.frontendmentor.io/solutions/order-summary-component-c8QMmFRMD)
-- Live Site URL: [Order summary card](https://frontend-mentor-qr.vercel.app/)
+- Live Site URL: [Order summary card](https://frontend-mentor-order-summary-brown.vercel.app/)
