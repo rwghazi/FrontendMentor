@@ -19,6 +19,7 @@ body,
 button {
     font-family: 'Lexend Deca', sans-serif;
     color: white;
+    background-color: var(--VerylightGray);
 }
 
 .container {
@@ -38,7 +39,7 @@ p {
 h3 {
     text-transform: uppercase;
     font-family: 'Big Shoulders Display', sans-serif;
-    font-size: 28px;
+    font-size: 40px;
 }
 
 img,
