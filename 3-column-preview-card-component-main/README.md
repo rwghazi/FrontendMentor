@@ -6,5 +6,5 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Order summary card solution](https://www.frontendmentor.io/solutions/order-summary-component-c8QMmFRMD)
-- Live Site URL: [Order summary card](https://frontend-mentor-order-summary-brown.vercel.app/)
+- Solution URL: [3-column preview card component solution](https://www.frontendmentor.io/solutions/3-column-preview-card-gJYWIwXCh)
+- Live Site URL: [3-column preview card component](https://3-column-preview-card-fmwg.netlify.app/)
