@@ -6,5 +6,5 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Order summary card solution](https://www.frontendmentor.io/solutions/order-summary-component-c8QMmFRMD)
-- Live Site URL: [Order summary card](https://frontend-mentor-order-summary-brown.vercel.app/)
+- Solution URL: [Profile card component solution](https://www.frontendmentor.io/solutions/profile-card-component-56PClSn79)
+- Live Site URL: [Profile card component](https://profile-card-component-rw.netlify.app/)
