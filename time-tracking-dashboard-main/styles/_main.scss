@@ -1,0 +1,247 @@
+body {
+    background-color: $VeryDarkBlue
+}
+
+.container {
+    width: 88%;
+    margin: auto;
+}
+
+.card {
+    background-color: $DarkBlue;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    .profile-card {
+        padding: 15px;
+        background-color: $Blue;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: flex-start;
+
+        img {
+            border: 3px solid white;
+            border-radius: 50%;
+            width: 26%;
+            margin: 15px;
+            max-width: 120px;
+
+        }
+
+        p {
+            color: $PaleBlue;
+        }
+
+        .name {
+            color: white;
+            font-size: 24px;
+        }
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 25px;
+        font-size: 18px;
+
+        .link-menu {
+            color: $DesaturatedBlue;
+        }
+
+        .active {
+            color: white;
+        }
+    }
+}
+
+.item-card {
+    border-top: 0.01em transparent solid;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-position: 90% 0%;
+    background-size: 55px;
+    margin-bottom: 20px;
+
+    .property-card {
+        background-color: $DarkBlue;
+        margin-top: 30px;
+        border-radius: 15px;
+
+        &:hover {
+            background-color: $DesaturatedBlue2;
+        }
+    }
+
+    .row {
+        padding: 15px;
+
+        .title {
+            margin-top: 15px;
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .points {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-top: -10px;
+
+            &:hover {
+                cursor: pointer;
+
+                .point {
+                    background-color: white;
+                }
+            }
+
+            .point {
+                background-color: $PaleBlue;
+                width: 3px;
+                height: 3px;
+                border-radius: 50%;
+                margin: 2px;
+            }
+        }
+    }
+
+    .row-2 {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .hour {
+            color: white;
+            font-size: 34px;
+            font-weight: 200
+        }
+
+        .descr {
+            color: $PaleBlue;
+            font-size: 15px;
+        }
+    }
+
+}
+
+.work {
+    background-color: $LightOrange;
+    background-image: url(../images/icon-work.svg);
+}
+
+.play {
+    background-color: $SoftBlue;
+    background-image: url(../images/icon-play.svg);
+}
+
+.study {
+    background-color: $LightRed;
+    background-image: url(../images/icon-study.svg);
+}
+
+.exercise {
+    background-color: $LimeGreen;
+    background-image: url(../images/icon-exercise.svg);
+}
+
+.social {
+    background-color: $Violet;
+    background-image: url(../images/icon-social.svg);
+}
+
+.self-care {
+    background-color: $SoftOrange;
+    background-image: url(../images/icon-self-care.svg);
+}
+
+@media screen and (min-width: 570px) {
+    .container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .card {
+        grid-column: 1 / span 2;
+        margin: 15px
+    }
+
+    .item-card {
+        margin: 15px;
+
+        .property-card {
+            .row-2 {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+
+    .container {
+        width: 80%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .card {
+        grid-row: 1 / span 2;
+        grid-column: unset;
+        height: 95%;
+
+        .profile-card {
+            flex-direction: column;
+            align-items: flex-start;
+            height: 70%;
+            padding: 40px;
+
+            img {
+                margin-left: -6px;
+                width: 50%;
+            }
+
+            .name {
+                font-size: 40px;
+            }
+        }
+
+        .menu {
+            height: 30%;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+
+    .item-card {
+        .property-card {
+            .row-2 {
+                .hour {
+                    font-size: 50px;
+                    padding-top: 25px;
+                    margin-bottom: 20px;
+                }
+
+                .descr {
+                    font-size: 15px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+    }
+}
