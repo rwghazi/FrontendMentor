@@ -12,6 +12,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [NFT preview card component solution](https://www.frontendmentor.io/solutions/profile-card-component-56PClSn79)
-- Live Site URL: [NFT preview card component](https://profile-card-component-rw.netlify.app/)
+- Solution URL: [NFT preview card component solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-ux3Z_fqca)
+- Live Site URL: [NFT preview card component](https://nft-preview-card-component-rw.netlify.app/)
 
