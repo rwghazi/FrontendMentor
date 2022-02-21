@@ -12,5 +12,5 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Solution URL: [Huddle landing page solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-ux3Z_fqca)
-- Live Site URL: [Huddle landing page](https://nft-preview-card-component-rw.netlify.app/)
+- Solution URL: [Huddle landing page solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-hzFvbt39r)
+- Live Site URL: [Huddle landing page](https://huddle-landing-page-with-single-introductoryy.netlify.app/)
