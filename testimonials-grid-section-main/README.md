@@ -10,5 +10,5 @@ Thanks for checking out this front-end coding challenge.
 
 ### Links
 
-- Solution URL: [Testimonials grid section solution](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-f8EUkwYnI)
-- Live Site URL: [Testimonials grid section](https://base-apparel-coming-soon-rw.netlify.app/)
+- Solution URL: [Testimonials grid section solution](https://www.frontendmentor.io/solutions/testimonials-grid-section-Knp3ismR9)
+- Live Site URL: [Testimonials grid section](https://testimonials-grid-section-main-rw.netlify.app/)
