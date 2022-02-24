@@ -12,5 +12,5 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 ### Links
 
-- Solution URL: [Sunnyside agency landing page solution](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-f8EUkwYnI)
-- Live Site URL: [Sunnyside agency landing page](https://base-apparel-coming-soon-rw.netlify.app/)
+- Solution URL: [Sunnyside agency landing page solution](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-dtH7bbdTb)
+- Live Site URL: [Sunnyside agency landing page](https://sunnyside-agency-landing-page-rw.netlify.app/)
