@@ -1,0 +1,157 @@
+.cards-mobile {
+    padding: 0 20px 50px;
+}
+
+.cards-mobile h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.cards-mobile article {
+    position: relative;
+}
+
+.cards-mobile article:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.cards-mobile h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    position: absolute;
+    margin-top: -100px;
+    padding: 0 0 20px 20px;
+    color: #fff;
+    font-size: 24px;
+    width: 150px;
+}
+
+.cards-mobile img {
+    padding: 10px;
+}
+
+.cards-mobile section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    place-items: center;
+}
+
+.cards-mobile .btn-container {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.cards-mobile .btn-container .btn {
+    border: 2px solid black;
+    padding: 10px 30px;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.cards-mobile .btn-container .btn:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.cards-desktop {
+    display: none;
+}
+
+
+
+@media (min-width: 1024px) {
+    .cards-mobile {
+        display: none;
+    }
+
+    .cards-desktop {
+        display: block;
+        padding: 50px 20px;
+        margin-top: 50px;
+    }
+
+    .cards-desktop .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1000px;
+        margin: auto;
+        padding: 30px 0;
+    }
+
+    .cards-desktop .btn-container {
+        text-align: center;
+    }
+
+    .cards-desktop .btn-container .btn {
+        border: 2px solid black;
+        padding: 10px 30px;
+        color: black;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+    .cards-desktop .btn-container .btn:hover {
+        background-color: black;
+        color: #fff;
+    }
+
+    .cards-desktop section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .cards-desktop article {
+        position: relative;
+    }
+
+    .cards-desktop article:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+
+    .cards-desktop h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+        font-weight: 300;
+        position: absolute;
+        color: #fff;
+        font-size: 24px;
+    }
+
+    .footer {
+        padding: 50px 150px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .cards-desktop h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 56px;
+        text-align: start;
+        margin-bottom: 20px;
+    }
+
+    .cards-desktop .title {
+        max-width: 1100px;
+    }
+
+    .cards-desktop section {
+        max-width: 1100px;
+    }
+}
