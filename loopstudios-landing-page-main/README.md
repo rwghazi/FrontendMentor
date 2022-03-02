@@ -10,6 +10,6 @@ Thanks for checking out this front-end coding challenge.
 
 ### Links
 
-- Solution URL: soon
-- Live Site URL: soon
+- Solution URL: [Loopstudios Landing Page Solution](https://www.frontendmentor.io/solutions/loopstudios-landing-page-h6M8yYAQG)
+- Live Site URL: [Loopstudios Landing Page](https://loopstudios-landing-page-rw.netlify.app/)
 
