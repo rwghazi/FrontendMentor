@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link href="/dist/output.css" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="font-epiloque">
+  <div class="w-11/12 mx-auto my-4">
+    <div class="flex justify-between text-almostgray text-lg m-8">
+      <div class="flex">
+        <div class="mr-4">
+          <img src="../images/logo.svg" class="object-contain" alt="">
+        </div>
+        <div>
+          <ul class="flex">
+            <li class="flex flex-row hover:cursor-pointer">
+              <a href="#" class="mr-4 ml-4 font-semibold hover:text-almostblack">Features</a>
+              <img class="object-contain" src="../images/icon-arrow-down.svg" alt="">
+            </li>
+            <li class="flex flex-row hover:cursor-pointer">
+              <a href="#" class="mr-4 ml-8 font-semibold hover:text-almostblack">Company</a>
+              <img class="object-contain" src="../images/icon-arrow-down.svg" alt="">
+            </li>
+            <li class="hover:cursor-pointer">
+              <a href="#" class="mr-4 ml-8 font-semibold hover:text-almostblack">Careers</a>
+            </li>
+            <li class="hover:cursor-pointer">
+              <a href="#" class="mr-4 ml-8 font-semibold hover:text-almostblack">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <ul class="flex">
+          <li>
+            <a href="#" class="p-2 m-4">Login</a>
+          </li>
+          <li>
+            <a href="#" class="px-4 py-3 m-4 border-2 border-almostgray rounded-xl">Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="flex justify-between w-10/12 mt-16 mx-auto">
+      <div class="flex flex-col justify-evenly m-6">
+        <div class="md:hidden">
+          <img src="../images/image-hero-mobile.png" alt="">
+        </div>
+        <h1 class="text-8xl font-bold">
+          Make <br> remote work
+        </h1>
+        <p class="text-almostgray text-xl font-semibold ">
+          Get your team in sync, no matter your location.<br> Streamline processes,
+          create team rituals, and <br> watch productivity soar.
+        </p>
+        <div>
+          <button
+            class="px-8 py-4 rounded-xl max-w-10 border-2 bg-almostblack text-almostwhite font-semibold hover:bg-almostwhite hover:text-almostblack hover:border-almostblack">
+            Learn more
+          </button>
+        </div>
+        <div class="flex">
+          <img src="../images/client-databiz.svg" class="object-contain mr-8" alt="">
+          <img src="../images/client-audiophile.svg" class="object-contain mr-8" alt="">
+          <img src="../images/client-meet.svg" class="object-contain mr-8" alt="">
+          <img src="../images/client-maker.svg" class="object-contain mr-8" alt="">
+        </div>
+      </div>
+      <div class="max-w-md sm:hidden md:block">
+        <img src="../images/image-hero-desktop.png" alt="">
+      </div>
+    </div>
+    <div class="attribution mt-10">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/rahmanwghazi" target="_blank">rahmanwghazi</a>.
+    </div>
+  </div>
+</body>
+
+</html>
