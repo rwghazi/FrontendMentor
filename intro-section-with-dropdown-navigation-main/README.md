@@ -13,4 +13,4 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 ### Links
 
 - Solution URL: [Intro section with dropdown navigation solution](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-dtH7bbdTb)
-- Live Site URL: [Intro section with dropdown navigation solution](https://sunnyside-agency-landing-page-rw.netlify.app/)
+- Live Site URL: [Intro section with dropdown navigation solution](https://inspiring-stardust-4caa87.netlify.app/)
