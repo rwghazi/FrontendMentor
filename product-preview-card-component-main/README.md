@@ -10,5 +10,5 @@ Thanks for checking out this front-end coding challenge.
 
 ### Links
 
-- Solution URL: [Product preview card component Solution](https://www.frontendmentor.io/solutions/loopstudios-landing-page-h6M8yYAQG)
-- Live Site URL: [Product preview card component](https://loopstudios-landing-page-rw.netlify.app/)
+- Solution URL: [Product preview card component Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-1pDP0etUZJ)
+- Live Site URL: [Product preview card component](https://product-preview-wafiq.netlify.app)
